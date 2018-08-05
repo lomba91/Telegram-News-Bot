@@ -13,7 +13,7 @@ import os
 
 
 #-------------VARIABILI DI CONFIGURAZIONE--------------#
-INGAPITOKEN = "4a55ddfb1e16c69821dae5d3f9347047"
+INGAPITOKEN = ""
 #URL = "http://localhost/Tesi/index.php/api/Events/"
 URL = "http://computer.ing.unipi.it/index.php/it/api/Events/"
 CACHEFOLDER = "Cache\\"
@@ -23,7 +23,7 @@ RMUSERSFILE = CACHEFOLDER + "rmUsersFile"
 HEADER = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36',
             'X-Authorization': 'Bearer ' + INGAPITOKEN}
     
-TELEGRAMTOKEN = "583786281:AAG2ztda1EbHFP_fEuYwTLgJAaHXHE5vGRw"
+TELEGRAMTOKEN = ""
 #UPDATETIME = 60*60*1000     #1 ora
 UPDATETIME = 15     
 
