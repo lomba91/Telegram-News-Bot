@@ -5,7 +5,7 @@
 
 #--------------VARIABILI API ING INFORMATICA----------------#
 
-INGAPITOKEN = "4a55ddfb1e16c69821dae5d3f9347047"
+INGAPITOKEN = "#"
 #URL = "http://localhost/Tesi/index.php/api/Events/"
 URL = "http://computer.ing.unipi.it/index.php/it/api/Events/"
 HEADER = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 \
@@ -24,13 +24,13 @@ RMUSERSFILE = CACHEFOLDER + "rmUsersFile"
 
 
 #-----------------VARIABILI API TELEGRAM------------------#  
-TELEGRAMTOKEN = "583786281:AAG2ztda1EbHFP_fEuYwTLgJAaHXHE5vGRw"
+TELEGRAMTOKEN = "#"
 
 
 
 #---------------------VARIABILI BOT-----------------------#
-#UPDATETIME = 60*60*1000     #1 ora
-UPDATETIME = 15     
+UPDATETIME = 60*60*1000     #1 ora
+#UPDATETIME = 15     
 
 INITMSG = "Ciao, mi occupo di tenerti aggiornato sulle news pubblicate sul sito di Ingegneria Informatica di Pisa.\n\n\
 Ecco una lista di comandi che possono servirti:\n\
